@@ -17,7 +17,7 @@ const routes = [
     component: Cities
   },
   {
-    path: '/city',
+    path: '/city/:lat/:lon',
     component: CityDetail
   }
 ]
